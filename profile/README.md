@@ -5,7 +5,7 @@ in your CI job, checks each pull or merge request against your repository's
 `.talooner/rules.tln`, posts a check run and a comment, and exits. No server to host.
 
 ```sh
-docker run --rm ghcr.io/talooner/talooner-runner:0 snippet github   # or gitlab | generic
+docker run --rm ghcr.io/talooner/talooner-runner:latest snippet github   # or gitlab | generic
 ```
 
 **Found a bug or stuck during setup?** Open an issue in
