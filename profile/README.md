@@ -20,7 +20,7 @@ mkdir -p ~/.claude/skills
 cp -R talooner-onboard ~/.claude/skills/
 ```
 
-Use `~/.config/opencode/skills/` for OpenCode or `.agents/skills/` for Codex. Requirements:
+Use `~/.config/opencode/skills/` for OpenCode or `.agents/skills/` for Codex or `~/.claude/skills/` for Claude. Requirements:
 Docker, a Talooner license with AI review, an AI review key, and a context decision model key.
 
 **Found a bug or stuck during setup?** Open an issue in
